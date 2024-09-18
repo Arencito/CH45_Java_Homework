@@ -46,7 +46,12 @@ public class Student
     }
 
     public int totalEnrolledCourses(){
-        //TODO implement
+    	
+        for (Course course : enrolledCourses) {
+        	
+        	System.out.println(course);
+			
+		}
         return 0;
     }
 
@@ -61,4 +66,6 @@ public class Student
         return "Student{" + "name='" + name + '\'' + ", id='" + id + '\'' + ", enrolledCourses=" + enrolledCourses
             + '}';
     }
+
+	
 }

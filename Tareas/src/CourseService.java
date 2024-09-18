@@ -26,6 +26,16 @@ public class CourseService
 
     public void enrollStudent(String studentId, String courseId){
         //TODO implement so it adds the given course form the student
+    	
+          
+		for (Course students :   ) {
+			
+			System.out.println( courses);
+	
+		}
+          
+			
+	
     }
 
     public void unEnrollStudent(String studentId, String courseId){
